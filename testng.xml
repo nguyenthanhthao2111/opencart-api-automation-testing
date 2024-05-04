@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Goals2024/Testing/API_Testing/OpenCart">
+        <classes>
+<!--            <class name="api.test.oc001.LoginUserTest"></class>-->
+<!--            <class name="api.test.oc002.AddProductTest"></class>-->
+<!--            <class name="api.test.oc002.AddProductUnauthorizedTest"></class>-->
+<!--            <class name="api.test.oc003.GetProductTest"></class>-->
+<!--            <class name="api.test.oc004.EditProductTest"></class>-->
+<!--            <class name="api.test.oc005.RemoveProductFromCartTest"></class>-->
+<!--            <class name="api.test.oc006.ApplyVoucherTest"></class>-->
+<!--            <class name="api.test.oc007.AddCustomerDataTest"></class>-->
+<!--            <class name="api.test.oc008.AddPaymentAddressTest"></class>-->
+<!--            <class name="api.test.oc009.GetPaymentMethodTest"></class>-->
+<!--            <class name="api.test.oc010.AddPaymentMethodTest"></class>-->
+<!--            <class name="api.test.oc011.AddShippingAddressTest"></class>-->
+<!--            <class name="api.test.oc011.AddShippingAddressWithoutItemInCartTest"></class>-->
+<!--            <class name="api.test.oc012.GetShippingMethodTest"></class>-->
+<!--            <class name="api.test.oc013.AddShippingMethodTest"></class>-->
+<!--            <class name="api.test.oc014.AddNewOrderTest"></class>-->
+
+
+<!--            Prioritized list Test Run 004-->
+                        <class name="api.test.oc001.LoginUserTest"></class>
+                        <class name="api.test.oc014.AddNewOrderTest"></class>
+                        <class name="api.test.oc002.AddProductTest"></class>
+                        <class name="api.test.oc008.AddPaymentAddressTest"></class>
+
+
+<!--            Non-prioritized list Test Run 004-->
+<!--                        <class name="api.test.oc008.AddPaymentAddressTest"></class>-->
+<!--                        <class name="api.test.oc001.LoginUserTest"></class>-->
+<!--                        <class name="api.test.oc014.AddNewOrderTest"></class>-->
+<!--                        <class name="api.test.oc002.AddProductTest"></class>-->
+
+<!--            Prioritized list Test Run 005-->
+<!--                                    <class name="api.test.oc009.GetPaymentMethodTest"></class>-->
+<!--                                    <class name="api.test.oc010.AddPaymentMethodTest"></class>-->
+<!--                                    <class name="api.test.oc003.GetProductTest"></class>-->
+<!--                                    <class name="api.test.oc006.ApplyVoucherTest"></class>-->
+
+
+            <!--            Non-prioritized list Test Run 005-->
+<!--                                    <class name="api.test.oc006.ApplyVoucherTest"></class>-->
+<!--                                    <class name="api.test.oc009.GetPaymentMethodTest"></class>-->
+<!--                                    <class name="api.test.oc010.AddPaymentMethodTest"></class>-->
+<!--                                    <class name="api.test.oc003.GetProductTest"></class>-->
+
+
+
+
+        </classes>
+    </test>
+</suite>
